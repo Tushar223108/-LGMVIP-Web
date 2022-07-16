@@ -1,40 +1,24 @@
-# Getting Started with Create React App
+I created this during my internship at LetsGrowMore  (task1 )using reactjs css and html.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Starting page
+![1](https://user-images.githubusercontent.com/108059099/179354183-7e534690-6334-4852-94f4-a9766e957133.JPG)
 
-In the project directory, you can run:
 
-### `npm start`
+after adding task
+![2](https://user-images.githubusercontent.com/108059099/179354204-df83eeed-febd-491b-9cfa-6596aa295c50.JPG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After the task is completed click on completed it will cross the task with  green line.
+![3](https://user-images.githubusercontent.com/108059099/179354226-5db9492a-16de-422f-bd73-3f9edfa611c7.JPG)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+you can delet the task as well by clicking on delete.
+![4](https://user-images.githubusercontent.com/108059099/179354242-3ed483f6-f5f5-4d5b-8d56-251580196126.JPG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. 
