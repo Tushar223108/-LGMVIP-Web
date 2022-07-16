@@ -1,0 +1,115 @@
+.todo {
+    align-self: center;
+    color: white;
+}
+
+.todo .crossText {
+    text-decoration: line-through;
+    color: rgb(52, 207, 104);
+}
+
+.todo input {
+    margin: 20Px;
+    margin-top: 60px;
+ margin-left: auto;
+    margin-right: auto;
+    padding: 14px 32px 14px 16px;
+    font-size: medium;
+  border-radius: 20px 10 10 20x;
+  border: 5px solid #5d0cff;
+  outline: rgb(247, 237, 247);
+  width: 320px;
+  background: transparent;
+  color: rgb(255, 248, 248);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.todo input::placeholder {
+    box-sizing: border-box;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    color: #e2e2e2;
+}
+
+
+.todo .add-btn  {
+    padding: 20.6px;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        outline: none;
+        background: linear-gradient(
+          90deg,
+          rgba(93, 12, 255, 1) 0%,
+          rgba(155, 0, 250, 1) 100%
+        );
+        color: #fff;
+        text-transform: capitalize;
+      }
+.todo ul {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.todo ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-left: -50px;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 118, 20, 1) 0%,
+        rgba(255, 84, 17, 1) 100%);
+        
+}
+.todo ul li:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+  
+  
+  .todo ul li:nth-child(4n + 3) {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+  }
+.todo ul li .delete {
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.todo ul li .completed {
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+
